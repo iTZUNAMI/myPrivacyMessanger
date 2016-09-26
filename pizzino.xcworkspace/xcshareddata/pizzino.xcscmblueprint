@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3ECC527F738A9847B8BF559244FB9A74EA113325",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3ECC527F738A9847B8BF559244FB9A74EA113325" : 0,
+    "69BAA3BECEB97A979400C29FD77C690ACFA7F742" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "81336118-FD70-4E1E-A349-D5AD1E6EFA8C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3ECC527F738A9847B8BF559244FB9A74EA113325" : "pizzino\/",
+    "69BAA3BECEB97A979400C29FD77C690ACFA7F742" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "pizzino",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "pizzino.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iTZUNAMI\/myPrivacyMessanger",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3ECC527F738A9847B8BF559244FB9A74EA113325"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iTZUNAMI\/myPrivacyMessanger.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "69BAA3BECEB97A979400C29FD77C690ACFA7F742"
+    }
+  ]
+}

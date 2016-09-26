@@ -1,0 +1,87 @@
+/*
+ Localizable.strings
+ pizzino
+ 
+ Created by PERSEO on 18/04/16.
+ Copyright © 2016 Mattia Azzena. All rights reserved.
+ */
+
+//titolo pagine
+"NEWMESSAGE" = "myPrivacy Messanger";
+"BACKHOME" = "myPrivacy";
+"SETPASSWORD" = "Password";
+
+
+//sezioni
+"DESTROYMSG" = "Destroy the message after";
+"OPTIONALS" = "Optionals";
+"TERZASEZIONE" = "myPrivacy Messanger";
+
+//campo di testo
+"MYTEXT" = "Your secret message...";
+
+//pulsanti principali
+
+//testo sinistra
+"TIME" = "Time";
+"TESTOVIEW" = "View";
+"TESTOPASSWORD" = "Password";
+"TESTOREDIRECT" = "URL Redirect";
+"TESTODOMAIN" = "Domain Masking";
+"TESTOSHOWDELETED" = "Show Deleted Message";
+
+//testo destra
+//time
+"TIMESET" = "Hours";
+//view
+"TESTOVIEWATTUALE" = "View";
+"TESTOVIEWATTUALE_MORE" = "Views";
+//password
+"TESTOPASSWORDATTUALE_ON" = "On";
+"TESTOPASSWORDATTUALE_OFF" = "Off";
+//redirect
+"TESTOREDIRECTATTUALE_ON" = "On";
+"TESTOREDIRECTATTUALE_OFF" = "Off";
+
+//testi selezioni action sheet
+"TESTOCANCELLA" = "Cancel";
+"TESTOTITOLOSELEZIONETIME" = "qualcosa";
+"TESTOTIMESELEZIONE" = "description della selezione..bla bla bla";
+"TESTOTITOLOSELEZIONEVIEW" = "titolo action sheet view";
+"TESTOVIEWSELEZIONE" = "testo view action sheet";
+
+
+
+
+//pagina set password
+"SETPASSWORDCELLA" = "Request Password";
+"DESCSETPASSWORD" = "Password will be requested to view the message";
+"TESTODESCPASSWORDCORRENTE" = "Current Password";
+"TESTOIMPOSTADEFAULTPASSWORD" = "Set as Default Password";
+"TESTODESCIMPOSTADEFAULTPASSWORD" = "Save current password as default password";
+
+//testo alert password
+"TESTOTITOLOALERTSWITCHPASSWORD" = "Password";
+"TESTOSOTTOTITOLOALERTSWITCHPASSWORD" = "Password is case-sensitive and will be requested to view the message";
+"TESTOFIELDALERTSWITCHPASSWORD" = "Enter text here";
+"TESTODONEALERTSWITCHPASSWORD" = "Ok";
+
+
+//pagina redirect
+"SETREDIRECT" = "URL Redirect";
+"SETREDIRECTCELLA" = "Redirect";
+"DESCSETREDIRECT" = "You can add a custom URL to redirect user if the message has already expired or deleted. \n\nNote: default redirect is to popular video on Youtube.com ";
+"TESTODESCREDIRECTATTUALE" = "Custom URL";
+"TESTOIMPOSTADEFAULTREDIRECT" = "Set as Default Redirect";
+"TESTODESCIMPOSTADEFAULTREDIRECT" = "Use current url as default url redirect";
+"OPENWWW" = "  Open  "; // con spazio
+
+//testo alert redirect
+"TESTOFIELDALERTSWITCHREDIRECT" = "Enter text here";
+"TESTODONEALERTSWITCHREDIRECT"  = "Ok";
+"TESTOTITOLOALERTSWITCHREDIRECT" = "Redirect";
+"TESTOSOTTOTITOLOALERTSWITCHREDIRECT" = "Write here your custum url Example www.google.com";
+
+//pagina preview redirect
+"SETREDIRECTWEBTITLE" = "Preview";
+

@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  pizzino
+
+  Created by PERSEO on 18/04/16.
+  Copyright © 2016 Mattia Azzena. All rights reserved.
+*/
+
+
+//in base metto english di default (base != english)
+
+"WELCOME" = "Hello World";
