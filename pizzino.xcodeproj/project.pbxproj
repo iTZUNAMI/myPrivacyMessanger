@@ -11,6 +11,7 @@
 		9E013D631D1E3FB800D5165C /* SetMaskingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E013D621D1E3FB800D5165C /* SetMaskingController.swift */; };
 		9E14F2681D16F971002EE423 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E14F2671D16F971002EE423 /* SettingsManager.swift */; };
 		9E14F2751D189E1D002EE423 /* SetRedirectWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E14F2741D189E1D002EE423 /* SetRedirectWebViewController.swift */; };
+		9E184E281D9C00CB001D7498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E184E271D9C00CB001D7498 /* Main.storyboard */; };
 		9E24B5171D0F082B004838BB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E24B5161D0F082B004838BB /* Colors.swift */; };
 		9E2C69FC1CF87C3D00D8C9AC /* OpzioniModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C69FB1CF87C3D00D8C9AC /* OpzioniModel.swift */; };
 		9E377D761D12E96F007EF531 /* SetRedirectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E377D751D12E96F007EF531 /* SetRedirectController.swift */; };
@@ -23,7 +24,6 @@
 		9E861E841CD99D50004DD1AA /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E861E7D1CD99D50004DD1AA /* ViewController2.swift */; };
 		9E9CBB3B1CC158AB00901A36 /* IndieFlower.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E9CBB3A1CC158AB00901A36 /* IndieFlower.ttf */; };
 		9EB5BE7C1CEDB75400A460B7 /* OpzioniController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB5BE7B1CEDB75400A460B7 /* OpzioniController.swift */; };
-		9EC8A6571D99670B002F4229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC8A6561D99670B002F4229 /* Main.storyboard */; };
 		9ED8725B1CDC216700FC58E6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED8725A1CDC216700FC58E6 /* Alamofire.framework */; };
 		9ED8725D1CDC216C00FC58E6 /* EasyTipView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED8725C1CDC216C00FC58E6 /* EasyTipView.framework */; };
 		9ED8725F1CDC216F00FC58E6 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED8725E1CDC216F00FC58E6 /* SwiftyJSON.framework */; };
@@ -49,6 +49,7 @@
 		9E013D621D1E3FB800D5165C /* SetMaskingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetMaskingController.swift; sourceTree = "<group>"; };
 		9E14F2671D16F971002EE423 /* SettingsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
 		9E14F2741D189E1D002EE423 /* SetRedirectWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetRedirectWebViewController.swift; sourceTree = "<group>"; };
+		9E184E271D9C00CB001D7498 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9E24B5161D0F082B004838BB /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		9E2C69FB1CF87C3D00D8C9AC /* OpzioniModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpzioniModel.swift; sourceTree = "<group>"; };
 		9E377D751D12E96F007EF531 /* SetRedirectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetRedirectController.swift; sourceTree = "<group>"; };
@@ -56,13 +57,12 @@
 		9E3C851A1CD1A151001CA657 /* RecentiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentiController.swift; sourceTree = "<group>"; };
 		9E41584A1CD1B29D00882E95 /* UrlCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlCell.swift; sourceTree = "<group>"; };
 		9E4886411CE3DAE0007BE921 /* SCLAlertView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SCLAlertView.framework; path = "Pods/../build/Debug-iphoneos/SCLAlertView.framework"; sourceTree = "<group>"; };
-		9E861E7A1CD99D50004DD1AA /* MyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
-		9E861E7B1CD99D50004DD1AA /* MyMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMenuTableViewController.swift; sourceTree = "<group>"; };
-		9E861E7C1CD99D50004DD1AA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9E861E7D1CD99D50004DD1AA /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		9E861E7A1CD99D50004DD1AA /* MyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyNavigationController.swift; path = ../../../../Desktop/myAPP/pizzino/pizzino/pizzino/MyNavigationController.swift; sourceTree = "<group>"; };
+		9E861E7B1CD99D50004DD1AA /* MyMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyMenuTableViewController.swift; path = ../../../../Desktop/myAPP/pizzino/pizzino/pizzino/MyMenuTableViewController.swift; sourceTree = "<group>"; };
+		9E861E7C1CD99D50004DD1AA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../Desktop/myAPP/pizzino/pizzino/pizzino/ViewController.swift; sourceTree = "<group>"; };
+		9E861E7D1CD99D50004DD1AA /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController2.swift; path = ../../../../Desktop/myAPP/pizzino/pizzino/pizzino/ViewController2.swift; sourceTree = "<group>"; };
 		9E9CBB3A1CC158AB00901A36 /* IndieFlower.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IndieFlower.ttf; sourceTree = "<group>"; };
 		9EB5BE7B1CEDB75400A460B7 /* OpzioniController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpzioniController.swift; sourceTree = "<group>"; };
-		9EC8A6561D99670B002F4229 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9ED8725A1CDC216700FC58E6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Release-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
 		9ED8725C1CDC216C00FC58E6 /* EasyTipView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyTipView.framework; path = "Pods/../build/Debug-iphoneos/EasyTipView.framework"; sourceTree = "<group>"; };
 		9ED8725E1CDC216F00FC58E6 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
@@ -215,9 +215,9 @@
 		9EFCE66C1CBFE9DE00AFEA0E /* pizzino */ = {
 			isa = PBXGroup;
 			children = (
+				9E184E271D9C00CB001D7498 /* Main.storyboard */,
 				9E14F26F1D189BF7002EE423 /* Librerie */,
 				9EFCE66D1CBFE9DE00AFEA0E /* AppDelegate.swift */,
-				9EC8A6561D99670B002F4229 /* Main.storyboard */,
 				9E14F26E1D16FD5A002EE423 /* Impostazioni */,
 				9E14F26D1D16FD37002EE423 /* Manager */,
 				9E14F26C1D16FD0C002EE423 /* Modelli */,
@@ -308,7 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EED469D1CC52A8300751E54 /* Localizable.strings in Resources */,
-				9EC8A6571D99670B002F4229 /* Main.storyboard in Resources */,
+				9E184E281D9C00CB001D7498 /* Main.storyboard in Resources */,
 				9E9CBB3B1CC158AB00901A36 /* IndieFlower.ttf in Resources */,
 				9EFCE6781CBFE9DE00AFEA0E /* LaunchScreen.storyboard in Resources */,
 				9EFCE6751CBFE9DE00AFEA0E /* image.xcassets in Resources */,
