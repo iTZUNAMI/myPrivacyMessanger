@@ -58,6 +58,7 @@ class OpzioniController: UITableViewController,SetPasswordDelegate,SetRedirectDe
     //testi per localizzazione
     
     //sezioni
+
     @IBOutlet var testoPrimaSezione: UILabel!
     @IBOutlet var testoSecondaSezione: UILabel!
     
@@ -104,12 +105,11 @@ class OpzioniController: UITableViewController,SetPasswordDelegate,SetRedirectDe
     
     //i due pulsanti principali
 
-    @IBOutlet var clearButton: UIButton!
-  
     @IBOutlet var saveButton: UIButton!
-    
 
+    @IBOutlet var clearButton: UIButton!
     
+   
     
     @IBAction func clearButtonFunc(sender: UIButton) {
         print ("clear button")
@@ -128,6 +128,7 @@ class OpzioniController: UITableViewController,SetPasswordDelegate,SetRedirectDe
         
     }
     
+  
  
     @IBAction func saveButtonFunc(sender: UIButton) {
         
@@ -230,7 +231,7 @@ class OpzioniController: UITableViewController,SetPasswordDelegate,SetRedirectDe
 
         
         aggiornaTemplate()
-        aggiornaValori()
+      //  aggiornaValori()
         
        
        
@@ -245,26 +246,25 @@ class OpzioniController: UITableViewController,SetPasswordDelegate,SetRedirectDe
         //print(indexPath.section)
         //print(indexPath.row)
         
-        //prima cella
-        if indexPath.section == 0 && indexPath.row == 0 {
+        //cella zero il titolo sezione1
+        
+        
+        //prima cella timer
+        if indexPath.section == 0 && indexPath.row == 1 {
             //selezione timer
             selezioneTimer()
         }
         
-        //seconda cella
-        if indexPath.section == 0 && indexPath.row == 1 {
+        //seconda cella view
+        if indexPath.section == 0 && indexPath.row == 2 {
             //selezione view
             selezioneView()
         }
-        //terza cella
-        if indexPath.section == 1 && indexPath.row == 0 {
-            
-        }
-        //quarta cella
-        if indexPath.section == 1 && indexPath.row == 1 {
-            
-        }
         
+        
+        //queste non si usano
+        
+    
 
         
     }
@@ -461,6 +461,10 @@ class OpzioniController: UITableViewController,SetPasswordDelegate,SetRedirectDe
             cinqueViewController.delegate = self
             cinqueViewController.OggettoTemp = impostazioni
         }
+        
+      
+        
+        
     }
     
 }

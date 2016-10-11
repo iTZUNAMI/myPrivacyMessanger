@@ -15,21 +15,26 @@ import SCLAlertView
 
 class NewMessageController: UIViewController,UITextViewDelegate, ENSideMenuDelegate, OpzioniDelegate{
 
-
-
+    
+    
     //campo testo
     @IBOutlet var myText: UITextView!
-    @IBOutlet var closeKeyboardButton: UIBarButtonItem!
-    
+    //pulsante nuovo in basso
     @IBOutlet var addTestoButton: UIButton!
-    //creo oggetto MessaggioModel con valori di default
+    //scritta Done per campo testo
+    @IBOutlet var closeKeyboardButton: UIBarButtonItem!
+
+
+
     @IBOutlet var immagineHome: UIImageView!
     
+        //creo oggetto MessaggioModel con valori di default
     
     var impostazioni = OpzioniModel()
     var setMessage = ""
 
 
+    //azione al click del pulsante addTestoButton
     @IBAction func aggiungiTesto(sender: UIButton) {
         
         //nascondo immagine home
@@ -38,11 +43,13 @@ class NewMessageController: UIViewController,UITextViewDelegate, ENSideMenuDeleg
         myText.userInteractionEnabled = true
        
     }
-    //pulsante sidebar in alto
+
+    //pulsante sidebar in alto sinistra
     @IBAction func aprimenu(sender: UIBarButtonItem) {
         toggleSideMenuView()
     }
     
+
     //pulsante Done chiude tastiera o anche con tap fuori
     @IBAction func closeKeyboard(sender: UIBarButtonItem) {
         dismissKeyboard()
@@ -317,7 +324,7 @@ class NewMessageController: UIViewController,UITextViewDelegate, ENSideMenuDeleg
         guard let segueId = segue.identifier else { return }
         
         switch segueId {
-        case "myEmbeddedSegue":
+        case "OpzioniSegue":
             let destVC = segue.destinationViewController as! OpzioniController
             destVC.delegate = self
             

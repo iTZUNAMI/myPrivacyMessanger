@@ -9,7 +9,7 @@
 import UIKit
 import SCLAlertView
 
-class SetPasswordController: UITableViewController {
+class SetPasswordController: UIViewController {
 
     //delegato dalla table al newmessage
     var delegate: SetPasswordDelegate?
@@ -26,6 +26,7 @@ class SetPasswordController: UITableViewController {
     
     var statoAttuale : String! //lettura impostazione corrente
 
+    
     @IBOutlet var testoSetPassword: UILabel!
     @IBOutlet var testoDescrizioneSetPassword: UITextView!
     @IBOutlet var switchSetPassword: UISwitch!
@@ -33,6 +34,7 @@ class SetPasswordController: UITableViewController {
     
     @IBOutlet var testoPasswordCorrente: UILabel!
     @IBOutlet var testoDescPasswordCorrente: UITextView!
+
     
     @IBOutlet var testoImpostaDefaultPassword: UILabel!
     @IBOutlet var testoDescImpostaDefaultPassword: UITextView!
@@ -48,36 +50,42 @@ class SetPasswordController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        //impostazioni navbar
-        navigationItem.title = "SETPASSWORD".localized_con_commento("titolo princiaple")
-        //top bar
-        navigationController!.navigationBar.barStyle = UIBarStyle.BlackOpaque
-        navigationController!.navigationBar.barTintColor = myColor_verde
-        //colore font
-        navigationController!.navigationBar.tintColor = UIColor.whiteColor()
-        
-        
-        testoSetPassword.text = "SETPASSWORDCELLA".localized_con_commento("Set Password")
-        testoDescrizioneSetPassword.text = "DESCSETPASSWORD".localized_con_commento("descrizione").uppercaseString
-        testoDescrizioneSetPassword.textColor = myColor_grigio3
-        testoDescrizioneSetPassword.font = .systemFontOfSize(12)
-        
-        testoPasswordCorrente.textColor = myColor_bianco
-        
-        testoDescPasswordCorrente.text = "TESTODESCPASSWORDCORRENTE".localized_con_commento("Current password").uppercaseString
-        testoDescPasswordCorrente.textColor = myColor_grigio3
-        testoDescPasswordCorrente.font = .systemFontOfSize(12)
-        
-        testoImpostaDefaultPassword.text = "TESTOIMPOSTADEFAULTPASSWORD".localized_con_commento("Set as default password")
-        testoDescImpostaDefaultPassword.text = "TESTODESCIMPOSTADEFAULTPASSWORD".localized_con_commento("desc default password").uppercaseString
-        testoDescImpostaDefaultPassword.textColor = myColor_grigio3
-        testoDescImpostaDefaultPassword.font = .systemFontOfSize(12)
+        aggiornaTemplate()
         
         switchSetPassword.addTarget(self, action: #selector(SetPasswordController.selezionePassword(_:)), forControlEvents: UIControlEvents.ValueChanged)
         switchSetDefaultPassword.addTarget(self, action: #selector(SetPasswordController.defaultPassword(_:)), forControlEvents: UIControlEvents.ValueChanged)
       
-        aggiornaImpostazioni()
+       // aggiornaImpostazioni()
         
+    }
+    
+    func aggiornaTemplate(){
+    
+    //impostazioni navbar
+    navigationItem.title = "SETPASSWORD".localized_con_commento("titolo princiaple")
+    //top bar
+    navigationController!.navigationBar.barStyle = UIBarStyle.BlackOpaque
+    navigationController!.navigationBar.barTintColor = myColor_verde
+    //colore font
+    navigationController!.navigationBar.tintColor = UIColor.whiteColor()
+    
+    
+    testoSetPassword.text = "SETPASSWORDCELLA".localized_con_commento("Set Password")
+    testoDescrizioneSetPassword.text = "DESCSETPASSWORD".localized_con_commento("descrizione").uppercaseString
+    testoDescrizioneSetPassword.textColor = myColor_grigio3
+    testoDescrizioneSetPassword.font = .systemFontOfSize(12)
+    
+    testoPasswordCorrente.textColor = myColor_bianco
+    
+    testoDescPasswordCorrente.text = "TESTODESCPASSWORDCORRENTE".localized_con_commento("Current password").uppercaseString
+    testoDescPasswordCorrente.textColor = myColor_grigio3
+    testoDescPasswordCorrente.font = .systemFontOfSize(12)
+    
+    testoImpostaDefaultPassword.text = "TESTOIMPOSTADEFAULTPASSWORD".localized_con_commento("Set as default password")
+    testoDescImpostaDefaultPassword.text = "TESTODESCIMPOSTADEFAULTPASSWORD".localized_con_commento("desc default password").uppercaseString
+    testoDescImpostaDefaultPassword.textColor = myColor_grigio3
+    testoDescImpostaDefaultPassword.font = .systemFontOfSize(12)
+    
     }
 
     func aggiornaImpostazioni(){

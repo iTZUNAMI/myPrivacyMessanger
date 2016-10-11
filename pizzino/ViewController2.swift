@@ -28,6 +28,7 @@ class ViewController2: UIViewController {
     
 
     
+    @IBOutlet var aaa: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
